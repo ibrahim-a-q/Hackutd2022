@@ -1,22 +1,25 @@
-body {
+body 
+{
   background-color: #282c34;
 }
 
-.App {
+.App 
+{
   text-align: center;
-  max-width: 728px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: auto;
 }
 
 
-.App header {
+.App header 
+{
   background-color: #100f41;
   height: 10vh;
   min-height: 50px;
   color: white;
   position: fixed;
   width: 100%;
-  max-width: 728px;
+  max-width: 100%;
   top: 0;
   display: flex;
   align-items: center;
@@ -26,15 +29,17 @@ body {
   box-sizing: border-box;
 }
 
-.App section {
+.App section 
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: rgb(40, 8, 183);
 }
 
-main {
+main 
+{
   padding: 10px;
   height: 80vh;
   margin: 10vh 0 10vh;
@@ -43,11 +48,13 @@ main {
   flex-direction: column;
 }
 
-main::-webkit-scrollbar {
+main::-webkit-scrollbar 
+{
   width: 0.25rem;
 }
 
-main::-webkit-scrollbar-track {
+main::-webkit-scrollbar-track 
+{
   background: #1e1e24;
 }
 
@@ -55,31 +62,34 @@ main::-webkit-scrollbar-thumb {
   background: rgb(40, 8, 183);
 }
 
-.budget-form {
-  height: 10vh;
+.budget-form 
+{
+  height: 10%;
   position: fixed;
   bottom: 0;
   background-color: rgb(24, 23, 23);
-  width: 20%;
-  max-width: 728px;
+  width: 100%;
+  max-width: 50%;
   display: flex;
   font-size: 1.2rem;
 }
 
-.expense-form {
-  height: 10vh;
+.expense-form 
+{
+  height: 10%;
   position: fixed;
   bottom: 0;
-  right: 20.4em;
+  left: 50%;
   background-color: rgb(24, 23, 23);
-  width: 300px;
-  max-width: 728px;
+  width: 100%;
+  max-width: 50%;
   display: flex;
   font-size: 1.2rem;
 
 }
 
-form button {
+form button 
+{
   width: 0%;
   background-color: rgb(81, 81, 81);
 }
@@ -128,7 +138,8 @@ li {
   list-style: none;
 }
 
-p {
+p 
+{
   max-width: 500px;
   margin-bottom: 12px;
   line-height: 24px;
@@ -139,23 +150,27 @@ p {
   text-align: center;
 }
 
-.message {
+.message 
+{
   display: flex;
   align-items: center;
 }
 
 
-.sent {
+.sent 
+{
   flex-direction: row-reverse;
 }
 
-.sent p {
+.sent p 
+{
   color: white;
   background: #f6562a;
   align-self: flex-end;
 }
 
-.received p {
+.received p 
+{
   background: #f6562a;
   color: white;
 }
