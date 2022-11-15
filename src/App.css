@@ -5,16 +5,14 @@ body
 
 .App 
 {
-  text-align: center;
   max-width: 100%;
   margin: auto;
 }
 
-
 .App header 
 {
-  background-color: #100f41;
-  height: 10vh;
+  background-color: #141269;
+  height: 10%;
   min-height: 50px;
   color: white;
   position: fixed;
@@ -35,7 +33,7 @@ body
   flex-direction: column;
   justify-content: center;
   min-height: 100%;
-  background-color: rgb(40, 8, 183);
+  background-image: linear-gradient(rgb(0, 0, 169), rgb(96, 1, 96), rgb(169, 56, 0));
 }
 
 main 
